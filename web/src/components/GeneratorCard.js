@@ -62,7 +62,7 @@ class GeneratorCard extends React.Component {
       email: this.state.email,
       linkedin: this.state.linkedin,
       github: this.state.github,
-      palette: parseInt(this.state.palette),
+      palette: parseInt(this.state.palette).toFixed(),
       photo: this.state.photo,
     };
     Api(userData).then((response) => {

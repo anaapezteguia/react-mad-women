@@ -771,7 +771,7 @@ code {
   align-items: center;
   background: url(../../static/media/MadWomenTile_1v5.4a3f900a.svg),
     linear-gradient(180deg, #bfcdd0, #dde9ed);
-  /* background-size: 260px; */
+  background-size: 400px;
 
   background-attachment: scroll;
 }
