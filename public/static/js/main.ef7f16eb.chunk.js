@@ -859,14 +859,11 @@
         });
       };
       var P = function (e) {
-          return fetch(
-            "https://awesome-profile-cards-madwomen.herokuapp.com/card",
-            {
-              method: "POST",
-              body: JSON.stringify(e),
-              headers: { "Content-Type": "application/json" },
-            }
-          )
+          return fetch("https://react-mad-women.herokuapp.com/card", {
+            method: "POST",
+            body: JSON.stringify(e),
+            headers: { "Content-Type": "application/json" },
+          })
             .then(function (e) {
               return e.json();
             })

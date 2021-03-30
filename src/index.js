@@ -79,7 +79,7 @@ server.post("/card/", (req, res) => {
       response.cardURL =
         "https://localhost:3000/card/" + result.lastInsertRowid;
     } else {
-      response.cardURL = `https://awesome-profile-cards-madwomen.herokuapp.com/card/${result.lastInsertRowid}`;
+      response.cardURL = `https://react-mad-women.herokuapp.com/card/${result.lastInsertRowid}`;
     }
   }
   res.json(response);
